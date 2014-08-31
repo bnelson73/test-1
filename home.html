@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Explosion</title>	
+		
+		<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ 		<link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+  	    <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+    	<link rel="stylesheet" href="js/colorbox.css" />
+    	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/jquery.colorbox.js" type="text/javascript"></script>
+        <script src="js/jquery.colorbox-min.js" type="text/javascript"></script>
+    	
+    	<script type="text/javascript">
+    		$(document).ready(function () {
+                $('a.gallery').colorbox({ opacity:0.5 , rel:'group1', open:true, loop:false, overlayClose:true });
+             });    	
+        </script>
+        
+        <script type="text/javascript">
+        	$(document).bind('cbox_complete', function(){
+ 				 setTimeout($.colorbox.next, 2000);		 
+			});
+			window.setTimeout(function() {
+   				 $.colorbox.close();}, 10000);
+		</script>
+				
+</head>
+	
+
+	<header> 
+		<div class="header-box">
+	    <img class="logo"src="images/header.png" alt=”X-Plosion”>	    
+	    </div>      
+	    <nav class="main_navigation"><a class="nav-bar" href="#"><img src="images/nav-bar.png" alt=”Navigation”></a>  
+     	</nav> 
+    </header>  
+     	
+    <section class="content">
+    
+		<div class="content-box"><img src="images/explosion.png" alt=”X-Plosion Bottle”></div>
+       
+<!--START SIDEBAR--> 
+<aside class="rt_sidebar">
+	
+	<section class="sidebar-content box1">
+			<header><h4 class="sidebar-header header1">Follow Us</h4></header>
+				<nav class="social-icons sidebar-block">
+					<a class="social-fb" href="#"></a>
+      		      	<a class="social-tw" href="#"></a>
+           			<a class="social-goo" href="#"></a> 
+    			</nav>
+	</section>
+	
+	
+	<section class="sidebar-content box2">
+			<header><h4 class="sidebar-header header2">RANDOMLY SELECTED</h4></header>
+				<ul>
+					<li class="sidebar-box2">X-Plosion is a hit in Japan </li>
+					<li class="sidebar-box2">3 new flavors added </li>
+					<li class="sidebar-box2">Check our new promo at Youtube </li>
+					<li class="sidebar-box2">We say NO to artificial flavours </li>
+					<li class="sidebar-box2">X-Plosion and your health </li>
+				<ul/>
+	</section>
+	
+	
+	<section class="sidebar-content box3 address">
+			<header><h4 class="sidebar-header header3">WHERE CAN YOU FIND US?</h4></header>
+				<div class="sidebar-block">
+				<strong>X-Plosion Ltd</strong><br/>
+						9 Danbury Road <br/>
+						Wilton <br/>
+						CT 06897
+	</section>
+
+</aside>
+<!--END SIDEBAR-->
+
+<!--START NEWS SECTION-->
+
+		<img src="images/slider.png" alt="Image Slider">
+    	
+    <section class="news-box-l">
+    	<header new-header-lt>
+    		<h3 class="news-header news">X-PLOSION PRODUCTS</h3>
+    	</header>
+			<div class="news-section news">
+			
+				<h5>We say NO to artificial flavors</h5>
+				<div class=""><a class="gallery image-box thumb1" href='images/gallery/image1.jpg'></a></div>
+				<p>
+				Bacon ipsum dolor sit amet flank ground round leberkas t-bone pork belly doner bresaola prosciutto ribeye cow. Venison ham beef pig, corned beef kielbasa chicken
+				<br/>
+				<br/>
+				More  <img class="news-arrow" src="images/arrow.png" alt=" Little Arrow">
+				</p>
+			</div>
+   			<div class="news-section news news3">
+				<h5>New flavor added</h5>
+				<div class=""><a class="gallery image-box thumb3 " href='images/gallery/image3.jpg'></a></div>
+				<p>
+				Bacon ipsum dolor sit amet flank ground round leberkas t-bone pork belly doner bresaola prosciutto ribeye cow. Venison ham beef pig, corned beef kielbasa chicken
+				<br/>
+				<br/>
+				More  <img class="news-arrow" src="images/arrow.png" alt=" Little Arrow">
+				</p>
+			</div>
+	</section>
+	
+	<section class="news-box-r">
+    	<header class="new-header-rt">
+    		<h3 class="news-header news">X-PLOSION EXPANSION</h3>
+    	</header>
+			<div class="news-section news">
+				<h5>X-Plosion is a hit in Japan</h5>
+				<div class=""><a class="gallery image-box thumb2 " href='images/gallery/image2.jpg'></a></div>
+				<p>
+				Bacon ipsum dolor sit amet flank ground round leberkas t-bone pork belly doner bresaola prosciutto ribeye cow. Venison ham beef pig, corned beef kielbasa chicken
+				<br/>
+				<br/>
+				More  <img class="news-arrow" src="images/arrow.png" alt=" Little Arrow">
+				</p>
+			</div>
+   			<div class="news-section news news4">
+				<h5>Danish elder hooked on X-plosion</h5>
+				<div class=""><a class="gallery image-box thumb4" href='images/gallery/image4.jpg'></a> </div>
+				<p>
+				Bacon ipsum dolor sit amet flank ground round leberkas t-bone pork belly doner bresaola prosciutto ribeye cow. Venison ham beef pig, corned beef kielbasa chicken
+				<br/>
+				<br/>
+				More  <img class="news-arrow" src="images/arrow.png" alt=" Little Arrow">
+				</p>
+			</div>
+	</section>
+    
+	</section>
+<!--END NEWS SECTION-->
+	<footer>
+		<div class="footer-box"><img src="images/footer-nav.png" alt="Footer Image Here"></div>
+    </footer>
+		
+</html>

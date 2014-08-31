@@ -1,0 +1,190 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html {
+  font-family: 'arial'; }
+
+body {
+  max-width: 1500px;
+  margin: 0 auto; }
+
+section.content {
+  margin: 0 auto;
+  padding-left: 260px;
+  padding-right: 280px;
+  padding-top: 68px; }
+
+header {
+  background-image: url("../images/header-gradient.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  max-width: 1500px;
+  background-color: #eae2d7;
+  padding-left: 250px;
+  padding-right: 270px;
+  behavior: url(../PIE/PIE.htc); }
+
+.logo {
+  margin: 32px 0 30px 25px;
+  border: none;
+  outline: none; }
+
+.main_navigation nav a {
+  text-decoration: none;
+  border: none;
+  outline: none; }
+
+nav.main_navigation {
+  text-align: center; }
+
+.content {
+  background-color: #eae2d7;
+  background-image: url("../images/bottle-splash.jpg");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-position: 43% 6%;
+  min-height: 600px;
+  behavior: url(../PIE/PIE.htc); }
+
+.content-box {
+  width: 340px;
+  height: 350px;
+  padding: 0 10px 15px 10px;
+  overflow-wrap: break-word;
+  display: inline-block; }
+
+.rt_sidebar {
+  float: right;
+  border-radius: 9px 9px 0 0;
+  behavior: url(../PIE/PIE.htc); }
+
+.social-tw, .social-fb, .social-goo {
+  background-position: 0 -44px;
+  font-size: 13px;
+  color: #e71254;
+  text-decoration: none;
+  margin-right: 9px; }
+
+.sidebar-block {
+  padding-top: 15px; }
+
+aside header {
+  padding: 0 10px 10px 5px;
+  color: #e61052;
+  background: #fff;
+  background-image: url("../images/dots.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 25px;
+  behavior: url(../PIE/PIE.htc); }
+  aside header .sidebar-header {
+    margin-bottom: 10px;
+    margin-top: 5px; }
+  aside header ul {
+    list-style-type: none;
+    padding-left: 5px; }
+  aside header .address {
+    font-size: 12px;
+    color: #e71254;
+    line-height: 160%; }
+  aside header li.sidebar-box2 {
+    font-size: 12px;
+    color: #e71254;
+    line-height: 160%;
+    background-image: url("../images/arrow.png");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: 0;
+    padding-left: 25px; }
+  aside header section.sidebar-content {
+    width: 260px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 2px 2px 2px 0px #c7c0b7;
+    -moz-box-shadow: 2px 2px 2px 0px #c7c0b7;
+    box-shadow: 2px 2px 2px 0px #c7c0b7;
+    behavior: url(../PIE/PIE.htc); }
+  aside header .news-box-r .news-header {
+    background-color: #e61052;
+    border-radius: 0 10px 0 0;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 10px;
+    behavior: url(../PIE/PIE.htc); }
+  aside header .news-box-r .news-section.news, aside header .news-box-r .news-header {
+    background-image: url("../images/vert-seperator.png");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    behavior: url(../PIE/PIE.htc); }
+  aside header .news-box-l .news-header {
+    background-color: #e61052;
+    border-radius: 10px 0 0 0;
+    font-weight: normal;
+    font-size: 14px;
+    behavior: url(../PIE/PIE.htc); }
+  aside header .news-section.news {
+    padding-top: 15px;
+    padding-bottom: 1px;
+    -webkit-box-shadow: 2px 2px 2px 0px #c7c0b7;
+    -moz-box-shadow: 2px 2px 2px 0px #c7c0b7;
+     box-shadow: 2px 2px 2px 0px #c7c0b7;
+    behavior: url(../PIE/PIE.htc); }
+  aside header section.news-box-l header, aside header section.news-box-r header {
+    padding: 0;
+    display: inline-block;
+    width: 318px;
+    background-image: none;
+    color: #fff; }
+  aside header .news-box-l, aside header .news-box-r {
+    display: inline-block;
+    width: 314px;
+    margin-top: 40px; }
+  aside header .news {
+    background-color: #fff;
+    padding: 30px 18px;
+    width: 320px; }
+  aside header .news p {
+    overflow-wrap: break-word;
+    width: 150px;
+    margin-left: 130px;
+    color: #97866f;
+    font-size: 12px;
+    line-height: 2; }
+  aside header section.news-box-r h3, aside header section.news-box-l h3 {
+    margin: 0; }
+  aside header .sidebar-content.newsbox {
+    float: left;
+    padding: 10px; }
+  aside header .image-box {
+    float: left; }
+  aside header .news3, aside header .news4 {
+    margin-bottom: 40px; }
+  aside header .news3 {
+    border-radius: 0 0 0 10px;
+    behavior: url(../PIE/PIE.htc); }
+  aside header .news4 {
+    border-radius: 0 0 10px 0;
+    behavior: url(../PIE/PIE.htc); }
+  aside header footer {
+    background-image: url("../images/footer-bg.png");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    min-height: 91px;
+    width: auto; }
+  aside header .footer-box {
+    margin: 0 auto;
+    max-width: 962px;
+    padding-top: 21px; }
+  aside header .footer_navigation {
+    float: right; }
+
+/*# sourceMappingURL=scss.css.map */

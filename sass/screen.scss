@@ -1,0 +1,316 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+$base-color: #eae2d7;
+
+@mixin css3pie() {
+  behavior: url('../pie/pie.htc');
+}
+
+@import "social/*.png";
+@include all-social-sprites;
+
+
+
+
+$break-large: 1500px;
+
+@mixin background($imgpath,$position:0 0,$repeat: repeat-x) {
+    background: {
+        image: url($imgpath);
+        position: $position;
+        repeat: $repeat;
+    }
+}
+
+@mixin css3pie() {
+  behavior: url(../PIE/PIE.htc);
+}
+
+html {
+	font-family: 'arial';
+}
+
+body {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+section.content {
+	margin: 0 auto;
+	padding-left: 260px;
+	padding-right:280px;
+	padding-top: 68px;	
+}
+
+header { 
+	@include background('../images/header-gradient.png');
+	max-width: 1500px;
+	background-color: $base-color;
+	@include css3pie;
+}
+
+.header-box {
+	text-align: center;
+}
+
+.logo {
+	margin: 32px 0 30px 0;
+	border: none;
+	outline: none;
+}
+
+nav.main_navigation {
+	text-decoration: none;
+	border: none;
+	outline: none;
+	text-align: center;
+}
+
+.content {
+	background-color: $base-color;
+	@include background('../images/bottle-splash.jpg');
+	background-repeat: no-repeat;
+	background-position: 43% 6%;
+	min-height: 600px;	
+	 @include css3pie;
+}
+
+.content-box {
+	width: 340px;
+	height: 350px;
+	padding: 0 10px 15px 10px;
+	overflow-wrap: break-word;
+	display: inline-block;
+}
+@media screen and (min-width: $break-large) {
+.content-box {
+	padding: 0 10px 15px 10px;
+	}
+}
+
+.rt_sidebar {
+	float: right;
+	border-radius: 9px 9px 0 0;
+	@include css3pie;
+
+}
+
+
+.sidebar-block {
+	padding-top: 15px;
+}
+
+aside header {
+	padding: 0 10px 10px 5px;
+	color: #e61052;
+	background: #fff;
+	@include background('../images/dots.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 25px;
+	@include css3pie;
+	
+}
+.sidebar-header {
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.social-fb, .social-goo, .social-tw {
+	padding: 6px 20px 0 66px;
+}
+a.social-tw {
+	margin-left: 10px;
+}
+.social-goo {
+	padding-right: 10px;
+	background-position: 0 1.8px;
+	background-repeat: no-repeat;
+}
+
+ul {
+	list-style-type: none; 
+	padding-left: 5px;
+}
+.address {
+	font-size: 12px;
+	color: #e71254;
+	line-height: 160%;
+}
+
+li.sidebar-box2 {
+	font-size: 12px;
+	color: #e71254;
+	line-height: 160%;
+	@include background('../images/arrow.png');
+	background-repeat: no-repeat;
+	background-position: 0;
+	padding-left: 25px;
+}
+
+
+.sidebar-content.newsbox {
+	float: left;
+	padding: 10px;
+}
+
+.image-box {
+	float: left;
+	content: "";
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	@include background('../images/thumb.png');
+}
+
+.thumb1 {
+	@include background('../images/thumb-sbf061ccb74.png');
+	height: 100px;
+	width: 100px;
+	background-position: -2px -105px;
+	background-repeat: no-repeat;
+}
+
+.thumb2 {
+	@include background('../images/thumb-sbf061ccb74.png');
+	height: 100px;
+	width: 100px;
+	background-position: -1px -312px;
+	background-repeat: no-repeat;
+}
+
+.thumb3 {
+	@include background('../images/thumb-sbf061ccb74.png');
+	height: 100px;
+	width: 100px;
+	background-position: -2px -209px;
+	background-repeat: no-repeat;
+}
+
+.thumb4 {
+	@include background('../images/thumb-sbf061ccb74.png');
+	height: 100px;
+	width: 100px;
+	background-position: 0 -2px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+.news3, .news4 {
+	margin-bottom: 40px;
+}
+
+.news3 {
+	border-radius: 0 0 0 10px;
+	@include css3pie;
+}
+
+.news4 {
+	border-radius: 0 0 10px 0;
+	@include css3pie;
+}
+
+section.sidebar-content {
+	width: 260px;
+	padding: 15px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-box-shadow: 2px 2px 2px 0px #c7c0b7;
+	-moz-box-shadow: 2px 2px 2px 0px #c7c0b7;
+	box-shadow: 2px 2px 2px 0px #c7c0b7;
+	@include css3pie;
+}
+
+.news-box-r .news-header {
+	background-color: #e61052;
+	border-radius: 0 10px 0 0;
+	font-weight: normal;
+	font-size: 14px;
+	padding-left: 10px;
+	@include css3pie;
+}
+
+.news-box-r .news-section.news, .news-box-r .news-header {
+	@include background('../images/vert-seperator.png');
+	padding-left: 10px;
+	background-repeat: no-repeat;
+	@include css3pie;
+}
+
+.news-box-l .news-header {
+	background-color: #e61052;
+	border-radius: 10px 0 0 0;
+	font-weight: normal;
+	font-size: 14px;
+	@include css3pie;
+}
+
+.news-section.news {
+	padding-top: 15px;
+	padding-bottom: 1px;
+	-webkit-box-shadow: 2px 2px 2px 0px #c7c0b7;
+	-moz-box-shadow: 2px 2px 2px 0px #c7c0b7;
+	 box-shadow: 2px 2px 2px 0px #c7c0b7;
+	@include css3pie;
+}
+
+section.news-box-l header,  section.news-box-r header {
+	padding: 0;
+	display: inline-block;
+	width: 318px;
+	background-image: none;
+	color: #fff;
+}
+
+.news-box-l, .news-box-r {
+	display: inline-block;
+	width: 314px;
+	margin-top: 40px;
+}
+
+.news {
+	background-color: #fff;
+	padding: 30px 18px;
+	width: 320px;
+}
+
+.news p {
+	overflow-wrap: break-word;
+	width: 150px;
+	margin-left: 130px;
+	color: #97866f;
+	font-size: 12px;
+	line-height: 2;
+}
+
+section.news-box-r h3,  section.news-box-l h3 {
+	margin: 0;
+}
+
+footer {
+	@include background('../images/footer-bg.png');
+	min-height: 91px;
+	width: auto;
+	border: 1px solid #fff;
+}
+
+.footer-box {
+	margin: 0 auto;
+	max-width: 962px;
+	padding-top: 21px;	
+}
+
+.footer_navigation {
+	float: right;
+}
+
+
+
+
+

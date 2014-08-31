@@ -1,0 +1,365 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 58, social/*.png */
+.social-sprite, .social-fb, .social-goo, .social-tw {
+  background: url('../images/social-sb607fe96d2.png') no-repeat;
+}
+
+/* line 60, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-fb {
+  background-position: 0 -22px;
+}
+
+/* line 60, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-goo {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.social-tw {
+  background-position: 0 -46px;
+}
+
+/* line 32, ../sass/screen.scss */
+html {
+  font-family: 'arial';
+}
+
+/* line 36, ../sass/screen.scss */
+body {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* line 41, ../sass/screen.scss */
+section.content {
+  margin: 0 auto;
+  padding-left: 260px;
+  padding-right: 280px;
+  padding-top: 68px;
+}
+
+/* line 48, ../sass/screen.scss */
+header {
+  background-image: url("../images/header-gradient.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  max-width: 1500px;
+  background-color: #eae2d7;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 55, ../sass/screen.scss */
+.header-box {
+  text-align: center;
+}
+
+/* line 59, ../sass/screen.scss */
+.logo {
+  margin: 32px 0 30px 0;
+  border: none;
+  outline: none;
+}
+
+/* line 65, ../sass/screen.scss */
+nav.main_navigation {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+/* line 72, ../sass/screen.scss */
+.content {
+  background-color: #eae2d7;
+  background-image: url("../images/bottle-splash.jpg");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-position: 43% 6%;
+  min-height: 600px;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 81, ../sass/screen.scss */
+.content-box {
+  width: 340px;
+  height: 350px;
+  padding: 0 10px 15px 10px;
+  overflow-wrap: break-word;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1500px) {
+  /* line 89, ../sass/screen.scss */
+  .content-box {
+    padding: 0 10px 15px 10px;
+  }
+}
+/* line 94, ../sass/screen.scss */
+.rt_sidebar {
+  float: right;
+  border-radius: 9px 9px 0 0;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 102, ../sass/screen.scss */
+.sidebar-block {
+  padding-top: 15px;
+}
+
+/* line 106, ../sass/screen.scss */
+aside header {
+  padding: 0 10px 10px 5px;
+  color: #e61052;
+  background: #fff;
+  background-image: url("../images/dots.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 25px;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 117, ../sass/screen.scss */
+.sidebar-header {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+/* line 122, ../sass/screen.scss */
+.social-fb, .social-goo, .social-tw {
+  padding: 6px 20px 0 66px;
+}
+
+/* line 125, ../sass/screen.scss */
+a.social-tw {
+  margin-left: 10px;
+}
+
+/* line 128, ../sass/screen.scss */
+.social-goo {
+  padding-right: 10px;
+  background-position: 0 1.8px;
+  background-repeat: no-repeat;
+}
+
+/* line 134, ../sass/screen.scss */
+ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+/* line 138, ../sass/screen.scss */
+.address {
+  font-size: 12px;
+  color: #e71254;
+  line-height: 160%;
+}
+
+/* line 144, ../sass/screen.scss */
+li.sidebar-box2 {
+  font-size: 12px;
+  color: #e71254;
+  line-height: 160%;
+  background-image: url("../images/arrow.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-position: 0;
+  padding-left: 25px;
+}
+
+/* line 155, ../sass/screen.scss */
+.sidebar-content.newsbox {
+  float: left;
+  padding: 10px;
+}
+
+/* line 160, ../sass/screen.scss */
+.image-box {
+  float: left;
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-image: url("../images/thumb.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+}
+
+/* line 169, ../sass/screen.scss */
+.thumb1 {
+  background-image: url("../images/thumb-sbf061ccb74.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  height: 100px;
+  width: 100px;
+  background-position: -2px -105px;
+  background-repeat: no-repeat;
+}
+
+/* line 177, ../sass/screen.scss */
+.thumb2 {
+  background-image: url("../images/thumb-sbf061ccb74.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  height: 100px;
+  width: 100px;
+  background-position: -1px -312px;
+  background-repeat: no-repeat;
+}
+
+/* line 185, ../sass/screen.scss */
+.thumb3 {
+  background-image: url("../images/thumb-sbf061ccb74.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  height: 100px;
+  width: 100px;
+  background-position: -2px -209px;
+  background-repeat: no-repeat;
+}
+
+/* line 193, ../sass/screen.scss */
+.thumb4 {
+  background-image: url("../images/thumb-sbf061ccb74.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  height: 100px;
+  width: 100px;
+  background-position: 0 -2px;
+  background-repeat: no-repeat;
+}
+
+/* line 204, ../sass/screen.scss */
+.news3, .news4 {
+  margin-bottom: 40px;
+}
+
+/* line 208, ../sass/screen.scss */
+.news3 {
+  border-radius: 0 0 0 10px;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 213, ../sass/screen.scss */
+.news4 {
+  border-radius: 0 0 10px 0;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 218, ../sass/screen.scss */
+section.sidebar-content {
+  width: 260px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 2px 2px 2px 0px #c7c0b7;
+  -moz-box-shadow: 2px 2px 2px 0px #c7c0b7;
+  box-shadow: 2px 2px 2px 0px #c7c0b7;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 230, ../sass/screen.scss */
+.news-box-r .news-header {
+  background-color: #e61052;
+  border-radius: 0 10px 0 0;
+  font-weight: normal;
+  font-size: 14px;
+  padding-left: 10px;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 239, ../sass/screen.scss */
+.news-box-r .news-section.news, .news-box-r .news-header {
+  background-image: url("../images/vert-seperator.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  padding-left: 10px;
+  background-repeat: no-repeat;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 246, ../sass/screen.scss */
+.news-box-l .news-header {
+  background-color: #e61052;
+  border-radius: 10px 0 0 0;
+  font-weight: normal;
+  font-size: 14px;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 254, ../sass/screen.scss */
+.news-section.news {
+  padding-top: 15px;
+  padding-bottom: 1px;
+  -webkit-box-shadow: 2px 2px 2px 0px #c7c0b7;
+  -moz-box-shadow: 2px 2px 2px 0px #c7c0b7;
+   box-shadow: 2px 2px 2px 0px #c7c0b7;
+  behavior: url(../PIE/PIE.htc);
+}
+
+/* line 263, ../sass/screen.scss */
+section.news-box-l header, section.news-box-r header {
+  padding: 0;
+  display: inline-block;
+  width: 318px;
+  background-image: none;
+  color: #fff;
+}
+
+/* line 271, ../sass/screen.scss */
+.news-box-l, .news-box-r {
+  display: inline-block;
+  width: 314px;
+  margin-top: 40px;
+}
+
+/* line 277, ../sass/screen.scss */
+.news {
+  background-color: #fff;
+  padding: 30px 18px;
+  width: 320px;
+}
+
+/* line 283, ../sass/screen.scss */
+.news p {
+  overflow-wrap: break-word;
+  width: 150px;
+  margin-left: 130px;
+  color: #97866f;
+  font-size: 12px;
+  line-height: 2;
+}
+
+/* line 292, ../sass/screen.scss */
+section.news-box-r h3, section.news-box-l h3 {
+  margin: 0;
+}
+
+/* line 296, ../sass/screen.scss */
+footer {
+  background-image: url("../images/footer-bg.png");
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  min-height: 91px;
+  width: auto;
+  border: 1px solid #fff;
+}
+
+/* line 303, ../sass/screen.scss */
+.footer-box {
+  margin: 0 auto;
+  max-width: 962px;
+  padding-top: 21px;
+}
+
+/* line 309, ../sass/screen.scss */
+.footer_navigation {
+  float: right;
+}
